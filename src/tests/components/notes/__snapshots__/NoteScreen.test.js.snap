@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NoteScreen /> debe de mostrarse correctamente 1`] = `
+<div
+  className="notes__main-content background-noteScreen"
+>
+  <div
+    className="notes__appbar background-appBar"
+  >
+    <span>
+      January 13th 2022
+    </span>
+    <input
+      id="fileSelector"
+      name="file"
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="file"
+    />
+    <div>
+      <button
+        className="btn-picture"
+        onClick={[Function]}
+      >
+        Picture
+      </button>
+      <button
+        className="btn-save"
+        onClick={[Function]}
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="notes__content"
+  >
+    <input
+      autoComplete="off"
+      className="notes__title-input transparent"
+      name="title"
+      onChange={[Function]}
+      placeholder="Title"
+      type="text"
+      value="Hola"
+    />
+    <textarea
+      className="notes__textarea transparent"
+      name="body"
+      onChange={[Function]}
+      placeholder="What Happened Today"
+      value="mundo"
+    />
+  </div>
+  <button
+    className="btn-delete"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;

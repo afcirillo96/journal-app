@@ -1,0 +1,57 @@
+
+.notes__main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notes__appbar {
+    align-items: center;
+    background-color: $primary;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:unset;
+    padding: 10px 20px 10px 20px;
+}
+
+.notes__content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.notes__title-input, .notes__textarea {
+    border: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.notes__title-input {
+    color: dark;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 1200px
+}
+
+.notes__textarea {
+    border: none;
+    color: dark;
+    font-size: 20px;
+    flex: 1 1 auto;
+    resize: none;
+    width: 1200px
+}
+
+.notes__image {
+    height: 400px;
+    overflow-y: scroll;
+    //esto es nuevo
+    /*position:absolute; 
+    top:50px; 
+    right:30px;*/
+}

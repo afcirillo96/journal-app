@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Sidebar /> debe de mostrarse correctamente 1`] = `
+<aside
+  className="journal__sidebar background-sidebar"
+>
+  <div
+    className="journal__sidebar-navbar "
+  >
+    <button
+      className="btn-name"
+    >
+      <img
+        alt="image"
+        height="25"
+        src="https://static.wikia.nocookie.net/darksouls/images/7/78/Item_Estus_Flask.png"
+        width="25"
+      />
+      <p
+        className="mt-3"
+      >
+        <span>
+           
+          agus
+        </span>
+      </p>
+    </button>
+    <button
+      className="btn-logout"
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </div>
+  <button
+    className="btn-darksing"
+    onClick={[Function]}
+  >
+    <img
+      alt="image"
+      height="80"
+      src="https://static.wikia.nocookie.net/darksouls/images/8/8a/Darksign_%28DSIII%29.png"
+      width="80"
+    />
+    <p
+      className="mt-3"
+    >
+      NEW ENTRY
+    </p>
+  </button>
+  <div
+    className="journal__entries"
+  />
+</aside>
+`;

@@ -1,0 +1,12 @@
+
+@import './base/settings'; //importa mi archivo _settings.scss con los colores que creé
+@import './base/base';
+
+//Components
+@import './components/auth';
+@import './components/buttons';
+@import './components/links';
+@import './components/journal';
+@import './components/nothing';
+@import './components/notes';
+@import './components/backgrounds';

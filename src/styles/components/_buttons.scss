@@ -1,0 +1,246 @@
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 7px 10px 7px 10px;
+
+    transition: color .3s ease;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: darken($color: white, $amount: 10);
+    }
+   
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-radius: 2px;
+
+    &:disabled {
+        background-color: lighten($color: $primary, $amount: 15);
+    }
+
+    &:hover {
+        background-color: darken($color: $primary, $amount: 15);
+    }
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-danger {
+    background-color: red;
+    transition: background-color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {
+        background-color: darken($color: $primary, $amount: 10);
+    }
+}
+
+.google-btn {
+    align-items: center;
+    background-color: $google-blue;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: flex;
+    margin-top: 5px;
+    height: 40px;
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    
+    .google-icon-wrapper {
+    align-items: center;
+    border-radius: 2px 0 0 2px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    .google-icon {
+    width: 18px;
+    height: 18px;
+    }
+    }
+    .btn-text {
+    color: $white;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-left: 10px;
+    }
+    &:hover {
+    box-shadow: 0 0 6px $google-blue;
+    }
+    &:active {
+    background: $button-active-blue;
+    }
+}
+
+.btn-darksing {
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 5px;
+    border-color: $dark-grey;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 30%;
+
+    transition: border-color .3s ease;//para la tranicion cuando pones el mouse encima
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+
+    &:active {
+        background: darken($color: #000000, $amount: 10);
+    }
+}
+
+.btn-darksing {
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 5px;
+    border-color: $dark-grey;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 30%;
+
+    transition: background .3s ease;//para la tranicion cuando pones el mouse encima
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+    &:active {
+        background: darken($color: #000000, $amount: 10);
+    }
+}
+
+.btn-logout {
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-width: 5px;
+    border-color: $dark-grey;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 30%;
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+    &:active {
+        background-color: darken($color: #000000, $amount: 10);
+    }
+}
+
+.btn-name {
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border-width: 5px;
+    border-color: $dark-grey;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 05px;
+    width: 30%;
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+}
+
+.btn-picture {
+    color: white;
+    cursor: pointer;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    border-color: $dark-grey;
+    border-width: 5px;
+    width: 5%;
+    position:absolute; 
+    top:7px; 
+    right:250px;
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+    &:active {
+        background-color: darken($color: #000000, $amount: 10);
+    }
+}
+
+.btn-save {
+    color: white;
+    cursor: pointer;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    border-color: $dark-grey;
+    border-width: 5px;
+    width: 5%;
+    position:absolute; 
+    top:7px; 
+    right:150px;
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+    &:active {
+        background-color: darken($color: #000000, $amount: 10);
+    }
+}
+
+.btn-delete {
+    color: white;
+    cursor: pointer;
+    background-image: url("https://image.shutterstock.com/image-illustration/old-metal-background-260nw-411495808.jpg");
+    border-color: $dark-grey;
+    border-width: 5px;
+    width: 5%;
+    position:absolute; 
+    top:7px; 
+    right:30px;
+    transition: color .3s ease;//para la tranicion cuando pones el mouse encima
+
+    &:hover {//cuando pones el mouse encima y cambia el icono
+        color: darken(rgb(0, 0, 0), $amount: 10);
+    }
+    &:active {
+        background-color: darken($color: #000000, $amount: 10);
+    }
+}
